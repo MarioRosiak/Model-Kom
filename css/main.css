@@ -1,0 +1,27 @@
+.bacground-header {
+  border: 1px solid 126;
+  height: 60px;
+  width: 400px;
+}
+
+:root {
+  -LigthBlue: #80aad2;
+}
+
+header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 800px;
+  height: 80px;
+  background: var(-LigthBlue);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+  width: 600px;
+  height: 800px;
+}/*# sourceMappingURL=main.css.map */
