@@ -1,27 +1,27 @@
-.bacground-header {
-  border: 1px solid 126;
-  height: 60px;
-  width: 400px;
+* {
+  margin: 0, auto;
 }
 
-:root {
-  -LigthBlue: #80aad2;
+body {
+  display: flexbox;
 }
 
 header {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 800px;
-  height: 80px;
-  background: var(-LigthBlue);
+  display: flex;
+}
+
+.container {
+  margin-top: 10px;
+  align-items: center;
 }
 
 ul {
-  list-style-type: none;
+  width: 100%;
 }
 
-.main {
-  width: 600px;
-  height: 800px;
+.list_style {
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
