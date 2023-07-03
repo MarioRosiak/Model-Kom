@@ -1,0 +1,21 @@
+.list_style {
+    display: flexbox;
+    list-style: none;
+    text-decoration: none; 
+    padding:10px;
+    text-align: center;
+  }
+  .top-links {
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+  }
+  .links{
+    background-color: yellow;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    height:50px;
+    align-content: center;
+    margin-top: 0;
+  }

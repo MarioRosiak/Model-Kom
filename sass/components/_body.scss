@@ -8,8 +8,8 @@ html {
 }
 main {
   max-width: 40rem;
-  padding: 2rem;
   margin: auto;
+  display: flexbox;
 }
 
 h2{
@@ -20,17 +20,37 @@ h2{
 .top-nav{
   border: 2px, solid, black;
 }
+// media to mobile
 .container {
+  box-sizing: border-box;
+  /* min-width: 320px; */
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+// media to tablet
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 782px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+// media to desktop
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+/* .container {
   margin: 0, auto ;
-  /* align-content: center;
-  align-items: center; */
 }
 ul {
-
   width: 100%;
-  /* align-items: center; */
   padding: 0%;
-}
+} */
 
 p{
   text-align: justify;
@@ -44,10 +64,27 @@ p{
 }
 .top-links {
   display: flex;
-  padding: 30px;
   text-decoration: none;
+  margin: 0;
 }
 .links{
   background-color: yellow;
   align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  height:50px;
+  align-content: center;
+  margin-top: 0;
+}
+
+.new-d{
+  border-width: 1px;
+  border-style: solid;
+
+}
+img{
+  width: 300px
+}
+a {
+  text-decoration: none;
 }
